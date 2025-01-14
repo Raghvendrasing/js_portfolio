@@ -41,7 +41,10 @@ import {
   statemagament,
   sql,
   spring,
-  three
+  three,
+  HIMS,
+  CRM,
+  EIMS
 } from "../assets";
 
 import { FaCode, FaMobileAlt, FaServer, FaPencilAlt, FaRobot, FaLaptop, FaDocker, FaClipboardList } from "react-icons/fa";
@@ -295,8 +298,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: HIMS,
+    source_code_link: "https://raghav-portfolio-drab.vercel.app/#project",
   },
   {
     name: "CRM",
@@ -332,13 +335,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: CRM,
+    source_code_link: "https://raghav-portfolio-drab.vercel.app/#project",
   },
   {
-    name: "RIMS",
+    name: "EIMS",
     description:
-      "A Developed a dynamic system with modules for Menu Management, Order Processing, Table Reservations, Inventory Tracking, and Customer Feedback. Enabled efficient operations, seamless online bookings, and real-time inventory updates to enhance customer experiences and streamline restaurant workflows.",
+      "Developed a dynamic system with modules for Course Management, Student Enrollment, Timetable Scheduling, Attendance Tracking, and Feedback Collection. Enabled efficient operations, seamless online admissions, and real-time data updates to enhance student experiences and streamline educational workflows.",
     tags: [
       {
         name: "React",
@@ -385,8 +388,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: EIMS,
+    source_code_link: "https://raghav-portfolio-drab.vercel.app/#project",
   },
 ];
 

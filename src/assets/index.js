@@ -50,6 +50,9 @@ import mongodb from "./icons8-mongodb-480.png";
 import spring from "./icons8-spring-boot-480.png";
 import three from "./icons8-three.js-512.png";
 
+import HIMS from "./projects/3.png"
+import CRM from "./projects/4.png"
+import EIMS from "./projects/5.png"
 
 export {
   logo,
@@ -98,5 +101,8 @@ export {
   sql,
   mongodb,
   spring,
-  three
+  three,
+  HIMS,
+  CRM,
+  EIMS
 };
