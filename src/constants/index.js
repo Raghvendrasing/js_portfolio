@@ -189,29 +189,30 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Medimaze Solutions Pvt Ltd",
-    icon: mspl,
-    iconBg: "#F0F0F0",
-    date: "Mar 2023 - Aug 2024",
-    points: [
-      "As a skilled Software Developer with experience across multiple full-stack projects.",
-      "I’ve contributed significantly to both frontend development and team leadership in dynamic environments. At Medimaze Solutions Pvt Ltd",
-      "Building complex modules such as Billing, EMR, OT, and Oncology, along with integrating third-party apps like RIS and LIS.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
-    ],
-  },
-  {
     title: "Senior Angular Developer",
     company_name: "DigitalEdu IT Solutions Pvt. Ltd.",
     icon: digitalEdu,
     iconBg: "#F0F0F0",
     date: "Aug 2024 -  Present",
     points: [
-      "My expertise in Angular has enabled me to enhance functionality, improve user experience, and maintain clean, efficient code adhering to best practices and industry standards.",  
-      "I am committed to delivering reliable, scalable applications, and have consistently demonstrated my ability to identify and resolve issues promptly thorough testing and debugging.",
-      "I have a strong track record of optimizing application speed and responsiveness",
-      "Additionally, I foster a culture of continuous learning within the team through active participation in code reviews and knowledge sharing, while maintaining clear and concise documentation for smooth project handovers."
+      "Demonstrated expertise in project architecture design, optimizing compatibility and performance by selecting the most suitable UI libraries and managing large-scale nested data structures efficiently.",  
+      "Led the modernization of legacy projects by rewriting an Angular 9 application to Angular 18 using Module Federation for smooth end-to-end integration, while effectively breaking down requirements and delegating tasks within the team.",
+      "Developed AI-driven bots to elevate user experiences and engineered configurable, intelligent custom libraries for dynamic forms, grids, cards, and more, enhancing usability and maintainability.",
+      // "Additionally, I foster a culture of continuous learning within the team through active participation in code reviews and knowledge sharing, while maintaining clear and concise documentation for smooth project handovers."
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Medimaze Solutions Pvt Ltd",
+    icon: mspl,
+    iconBg: "#F0F0F0",
+    date: "Mar 2023 - Aug 2024",
+    points: [
+      // "Integrated the Ayushman Bharat Health Account (ABHA) database, implementing seamless server-side integration using Java and intuitive front-end display using Angular, contributing to critical modules like CSSD and Bio-Medical Waste Management.",
+      "Took ownership in the absence of the lead, managing full-stack development with Angular and Spring Boot, delivering key modules like Billing, EMR, Operating Theatre (OT), and Oncology.",
+      "Orchestrated the integration of third-party applications such as RIS (Radiology Information System) and LIS (Laboratory Information System) for improved operational efficiency.",
+      // "Spearheaded a complete project rewrite with a focus on modularity and scalability, leveraging Angular and Spring Boot to create reusable, dynamic full-stack components enabling real-time updates without extensive code refactoring.",
+      "Designed and implemented a microservices architecture to enhance application scalability and performance, ensuring seamless deployment and integration across services."
     ],
   }
 ];
